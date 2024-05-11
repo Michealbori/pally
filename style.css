@@ -1,0 +1,205 @@
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+#Logo
+{
+    font-weight: 900;
+    margin: 0 0 0 50px;
+}
+.collapse ul li a
+{
+    font-weight: 700;
+    margin: 0 40px 0 0;
+}
+
+.NavButton
+{
+    background-color: none;
+    border: 1.5px solid black;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.DesignNav
+{
+    display: flex;
+    justify-content: end;
+}
+
+.homeTool
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 70px 0 0 0;
+}
+
+#arrow
+{
+    padding: 0 15px 0 15px;
+}
+
+.imageHeader
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 0 0;
+}
+
+.imageHeader h1
+{
+    font-weight: 700;
+}
+
+.imageHeader p
+{
+    margin: 20px;
+}
+
+
+.UPLOAD
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#uploadIMG
+{
+    border: 2.5px dotted  black;
+    padding: 130px 200px 80px 200px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+
+#uploadIMG img
+{
+    width: 40px;
+    margin: 0 0 0 25px;
+    cursor: pointer;
+
+}
+
+.UPLOAD p
+{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.UPLOAD #firstImg 
+{
+    display: none;
+    visibility: hidden;
+}
+
+#SELECT
+{
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+}
+
+.Vibe
+{
+  width: 500px;
+  height: 50px;
+  border-radius: 7px;
+}
+
+.Vibe option 
+{
+    border: none;
+}
+
+.Vibe option:focus
+{
+    outline: "none";
+    border: none !important;
+}
+
+.ADDITIONAL input
+{
+    width: 500px;
+    height: 50px;
+    border-radius: 7px;
+    padding: 0 0 0 10px;
+    font-size: 17px;
+    border: 1px solid black !important;
+}
+
+
+.ADDITIONAL input:focus
+{
+    outline: "none";
+    border: none !important;
+}
+
+
+.generate-button button
+{
+    margin: 20px 0 0 0;
+     width: 500px;
+    height: 60px;
+    border-radius: 7px;
+    border: none !important;
+    background-color: rgb(146, 143, 143) !important;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 530;
+}
+
+
+#Image_Description_Generator
+{
+    margin: 0 20px 0 20px !important;
+}
+
+
+
+
+
+
+
+             /* Responsiveness */
+
+@media screen and (width <= 968px)
+{
+
+    #uploadIMG
+{
+    border: 2.5px dotted  black;
+    padding: 100px 120px 80px 100px;
+    border-radius: 10px;
+    opacity: 0.5;
+}   
+
+.generate-button button
+{
+    width: 300px;
+}
+
+
+.ADDITIONAL input
+{
+    width: 300px;
+}
+
+
+.Vibe
+{
+  width: 300px;
+}
+
+}
